@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Virat Kohli",
+    "country": "India",
+    "player_image": "https://i.ibb.co.com/CKRB1cMD/Virat-Kohli.jpg",
+    "playing_role": "Batsman",
+    "rating": 95,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium",
+    "price": 2534000
+  },
+  {
+    "name": "Steve Smith",
+    "country": "Australia",
+    "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Steve_Smith.jpg/960px-Steve_Smith.jpg?20100204121840",
+    "playing_role": "Batsman",
+    "rating": 92,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm leg break",
+    "price": 2107800
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "player_image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Jasprit_Bumrah.jpg?20210817114851",
+    "playing_role": "Bowler",
+    "rating": 90,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 1998500
+  },
+  {
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "player_image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRzvykxWht-4GqgSmcncBYylkHrkqbW9nQKvDbeoz_grro-UhhbZyTGFTt0QWrEFyBrv1D6mUe8qcjpiz0",
+    "playing_role": "Batsman",
+    "rating": 91,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm off break",
+    "price": 1800320
+  },
+  {
+    "name": "Ben Stokes",
+    "country": "England",
+    "player_image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Ben_Stokes.jpg?20210713152915",
+    "playing_role": "All-rounder",
+    "rating": 89,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast-medium",
+    "price": 2314500
+  },
+  {
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/QUINTON_DE_KOCK_%2815703218581%29.jpg/500px-QUINTON_DE_KOCK_%2815703218581%29.jpg?20150127150330",
+    "playing_role": "Wicketkeeper-Batsman",
+    "rating": 87,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "None",
+    "price": 1599300
+  },
+  {
+    "name": "Marnus Labuschagne",
+    "country": "Australia",
+    "player_image": "https://www.hindustantimes.com/static-content/1y/cricket-logos/players/marnus-labuschagne.png",
+    "playing_role": "Batsman",
+    "rating": 85,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm off break",
+    "price": 1512700
+  },
+  {
+    "name": "Jason Holder",
+    "country": "West Indies",
+    "player_image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTpDxMUAPD48X5fNCF3JwUEbXmm_e0oVSMny16kYMJU3jqp0hB3toZdDSqPJF-4vtAqspf-Lh7fKSIQLhgPXxguOnBVKt0RkCj3nmTwfA",
+    "playing_role": "All-rounder",
+    "rating": 83,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium",
+    "price": 1300480
+  },
+  {
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Trent_Boult_2.jpg/500px-Trent_Boult_2.jpg?20090210012350",
+    "playing_role": "Bowler",
+    "rating": 88,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium",
+    "price": 1617400
+  },
+  {
+    "name": "Liton Das",
+    "country": "Bangladesh",
+    "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9v-vYHvO9f5EkSygzOwMoP164_7uMv-HmU4QutVt60CPDwcHeIyk5AdiadF012fVFtxNXDaNxFLlL6y8kO4SmUrFF7DmvwsBvrFBMeA",
+    "playing_role": "Wicketkeeper-Batsman",
+    "rating": 84,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "None",
+    "price": 1209000
+  },
+  {
+    "name": "Joe Root",
+    "country": "England",
+    "player_image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Joe_Root_HIP1487_%28cropped%29.jpg",
+    "playing_role": "Batsman",
+    "rating": 90,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm off break",
+    "price": 2001200
+  },
+  {
+    "name": "Ravindra Jadeja",
+    "country": "India",
+    "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ravindra_Jadeja_in_2018.jpg/500px-Ravindra_Jadeja_in_2018.jpg?20220703080825",
+    "playing_role": "All-rounder",
+    "rating": 89,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm orthodox spin",
+    "price": 2217000
+  }
+]
