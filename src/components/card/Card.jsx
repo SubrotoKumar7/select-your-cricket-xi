@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import groupIcon from "../../assets/Group.png";
 import flagIcon from "../../assets/Vector.png";
 
-const Card = ({ player, setAvailableBalance, availableBalance }) => {
+const Card = ({ player, setAvailableBalance, availableBalance, buyPlayers, setBuyPlayers }) => {
   const [isSelected, setIsSelected] = useState(false);
 
   const handleSelected = (playerInfo) => {
@@ -12,6 +12,7 @@ const Card = ({ player, setAvailableBalance, availableBalance }) => {
     }
     setIsSelected(true);
     setAvailableBalance(availableBalance - playerInfo.price);
+    setBuyPlayers([...buyPlayers, playerInfo]);
   };
 
   return (

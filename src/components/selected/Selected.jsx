@@ -1,7 +1,13 @@
-const Selected = () => {
+import Buy from "../buy/Buy";
+
+const Selected = ({buyPlayers, removePlayers}) => {
     return (
         <div className="w-11/12 mx-auto">
-            <h1>I am from Selected Components</h1>
+            {
+                buyPlayers.map(
+                    (player, index) => <Buy removePlayers={removePlayers} key={index} player={player}></Buy>
+                )
+            }
         </div>
     );
 };

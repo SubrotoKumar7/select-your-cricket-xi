@@ -14,21 +14,31 @@ const playersPromise = fetchPlayers();
 
 function App() {
   const [toggle, setToggle] = useState(true);
-  const [availableBalance, setAvailableBalance] = useState(10000000);
+  const [availableBalance, setAvailableBalance] = useState(20000000);
   const toggleBtn = (status) => {
     setToggle(status);
   }
+
+  const [buyPlayers, setBuyPlayers] = useState([]);
+
+
+  const removePlayers = (ply) => {
+    const filtered = buyPlayers.filter(p => p.name !== ply.name);
+    setBuyPlayers(filtered);
+    setAvailableBalance(availableBalance + ply.price);
+  }
+
   return (
     <>
       <Navbar availableBalance={availableBalance}></Navbar>
-      <Title toggleBtn={toggleBtn} toggle={toggle}></Title>
+      <Title buyPlayers={buyPlayers} toggleBtn={toggleBtn} toggle={toggle}></Title>
       {
         toggle ? 
       <Suspense fallback={<div className="w-full h-screen flex justify-center items-center"><span className="loading loading-ring loading-xl"></span></div>}>
-        <Available availableBalance={availableBalance} setAvailableBalance={setAvailableBalance} playersPromise={playersPromise}></Available>
+        <Available buyPlayers={buyPlayers} setBuyPlayers={setBuyPlayers} availableBalance={availableBalance} setAvailableBalance={setAvailableBalance} playersPromise={playersPromise}></Available>
       </Suspense> 
       :
-      <Selected></Selected>
+      <Selected removePlayers={removePlayers} buyPlayers={buyPlayers}></Selected>
       }
 
 
