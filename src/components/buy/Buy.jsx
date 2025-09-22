@@ -7,7 +7,7 @@ const Buy = ({player, removePlayers}) => {
         <div className='flex justify-between items-center p-4 border border-gray-500 rounded-lg my-4'>
             <div>
                 <div className='flex gap-2 items-center'>
-                    <img className='w-15 rounded' src={player.player_image} alt={`{player.name} image`} />
+                    <img className='w-15 h-15 rounded' src={player.player_image} alt={`{player.name} image`} />
                     <div>
                         <h2 className='font-bold'>{player.name}</h2>
                         <p className='text-gray-500'>{player.playing_role}</p>

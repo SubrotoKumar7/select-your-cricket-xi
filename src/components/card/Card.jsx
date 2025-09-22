@@ -10,6 +10,10 @@ const Card = ({ player, setAvailableBalance, availableBalance, buyPlayers, setBu
         alert("You have not enough money")
         return;
     }
+    if(buyPlayers.length === 6){
+      alert("You already selected 6 players")
+      return;
+    }
     setIsSelected(true);
     setAvailableBalance(availableBalance - playerInfo.price);
     setBuyPlayers([...buyPlayers, playerInfo]);
