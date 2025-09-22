@@ -10,20 +10,22 @@ const fetchPlayers = async () => {
   return res.json();
 }
 
+const playersPromise = fetchPlayers();
+
 function App() {
-  const playersPromise = fetchPlayers();
   const [toggle, setToggle] = useState(true);
+  const [availableBalance, setAvailableBalance] = useState(10000000);
   const toggleBtn = (status) => {
     setToggle(status);
   }
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar availableBalance={availableBalance}></Navbar>
       <Title toggleBtn={toggleBtn} toggle={toggle}></Title>
       {
         toggle ? 
       <Suspense fallback={<div className="w-full h-screen flex justify-center items-center"><span className="loading loading-ring loading-xl"></span></div>}>
-        <Available playersPromise={playersPromise}></Available>
+        <Available availableBalance={availableBalance} setAvailableBalance={setAvailableBalance} playersPromise={playersPromise}></Available>
       </Suspense> 
       :
       <Selected></Selected>
